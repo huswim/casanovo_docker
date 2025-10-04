@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  casanovo:
+    build: .
+    image: casanovo_local:latest
+    volumes:
+      - ./data:/workspace/data
